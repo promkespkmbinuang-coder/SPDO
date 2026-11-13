@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skill-developer-orchestrator",
+  "version": "0.1.0",
+  "description": "Orchestrates evidence-led, adversarial audits and end-to-end improvement of AI skills and plugins, including controlled GitHub changes and verification.",
+  "author": { "name": "promkespkmbinuang-coder" },
+  "keywords": ["skill development", "plugin engineering", "prompt engineering", "systems audit", "red team", "GitHub", "regression testing", "quality assurance"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SKILL DEVELOPER ORCHESTRATOR",
+        "shortDescription": "Audit, improve & ship skills",
+        "longDescription": "A full-cycle engineering orchestrator for AI skills and plugins. It coordinates SKILL ANALYZER and Octa-Prompt methods, performs evidence-based root-cause analysis and red-team risk discovery, converts findings into prioritized improvements, then applies authorized changes to plugin assets and GitHub through verified capabilities. It uses branch-and-pull-request workflows, regression gates, traceable evidence, and fail-closed release decisions.",
+        "developerName": "Skill Developer Orchestrator",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Audit skill/plugin ini, rumuskan perbaikan, implementasikan perubahan yang diotorisasi, dan verifikasi hasilnya.",
+          "Bedah arsitektur prompt dengan SKILL ANALYZER dan Octa-Prompt, lakukan red-team, lalu susun patch dan regression test.",
+          "Audit repository GitHub dan siapkan pembaruan melalui branch dan pull request."
+        ]
+      }
+    }
+  }
+}
